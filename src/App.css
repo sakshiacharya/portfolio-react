@@ -1,38 +1,195 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@500&display=swap');
+
+
+.container {
+  max-width: 1550px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.port-home-main {
+  background-color: #001220;
   min-height: 100vh;
+}
+
+.port-head {
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.port-head .nav-left {
+  display: block;
+  font-size: 54px;
+  font-weight: 500;
+  color: #fff;
+  font-family: 'Estonia', cursive;
+
+  /* font-family: 'Love Light', cursive; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.nav-right {
+  display: block;
+  font-size: 20px;
+  font-family: 'Kaisei Opti', serif;
+}
+
+
+.left-title {
+  margin-right: 30px;
+  display: inline-block;
+  color: #fff;
+}
+
+.top-section {
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23ffff' fill-opacity='1' d='M0,256L80,240C160,224,320,192,480,165.3C640,139,800,117,960,122.7C1120,128,1280,160,1360,176L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z'%3E%3C/path%3E%3C/svg%3E"); */
+  /* background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 900 600' width='900' height='600' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Crect x='0' y='0' width='900' height='600' fill='%23001220'%3E%3C/rect%3E%3Cg fill='%23e8dddf'%3E%3Ccircle r='147' cx='568' cy='250'%3E%3C/circle%3E%3Ccircle r='65' cx='204' cy='336'%3E%3C/circle%3E%3C/g%3E%3C/svg%3E"); */
+  /* background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 900 600' width='900' height='600' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Crect x='0' y='0' width='900' height='600' fill='%23001220'%3E%3C/rect%3E%3Cg fill='none' stroke='%23e8dddf' stroke-width='2'%3E%3Ccircle r='145' cx='568' cy='250'%3E%3C/circle%3E%3Ccircle r='63' cx='204' cy='336'%3E%3C/circle%3E%3C/g%3E%3C/svg%3E"); */
+  /* background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 960 540' width='960' height='540' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Crect x='0' y='0' width='960' height='540' fill='%23001220'%3E%3C/rect%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='2'%3E%3Ccircle r='154' cx='753' cy='164'%3E%3C/circle%3E%3Ccircle r='18' cx='265' cy='194'%3E%3C/circle%3E%3C/g%3E%3C/svg%3E"); */
+  /* background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 960 540' width='960' height='540' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Crect x='0' y='0' width='960' height='540' fill='%23001220'%3E%3C/rect%3E%3Cg fill='%23ffffff'%3E%3Ccircle r='156' cx='623' cy='258'%3E%3C/circle%3E%3Ccircle r='88' cx='193' cy='369'%3E%3C/circle%3E%3C/g%3E%3C/svg%3E"); */
+  background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 960 540' width='960' height='540' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Crect x='0' y='0' width='960' height='540' fill='%23001220'%3E%3C/rect%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='2'%3E%3Ccircle r='154' cx='623' cy='258'%3E%3C/circle%3E%3Ccircle r='86' cx='193' cy='369'%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+
+}
+
+.top-bundle {
+  display: flex;
+  padding: 1% 10%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.top-text {
+  display: block;
+  color: #fff;
+
+}
+
+.top-text q {
+  font-size: 30px;
+  display: inline-block;
+  width: 78%;
+  font-family: 'Estonia';
+  margin-bottom: 20px;
+}
+
+.top-bundle h1 {
+  font-size: 50px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.top-bundle strong {
+  background-image: linear-gradient(45deg, #0072F5 -20%, #FF4ECD 50%);
+
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.photobackground {
+  padding: 15px;
+}
+
+.photobackground img {
+  width: 500px;
+  height: 100%;
+  border-radius: 0 110px 0;
+}
+
+.photobackground {
+  --border-size: 3px;
+  --border-angle: 0turn;
+  /* width: 60vmin;
+  height: 50vmin; */
+  background-image: conic-gradient(from var(--border-angle),
+      #213,
+      #112 50%,
+      #213),
+    conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+  background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)),
+    cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  animation: bg-spin 3s linear infinite;
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+
+
+@keyframes bg-spin {
   to {
-    transform: rotate(360deg);
+    --border-angle: 1turn;
   }
+}
+
+&:hover {
+  animation-play-state: paused;
+}
+
+
+.About-section {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5%;
+}
+
+.About-section .title-about {
+  color: #fff;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.description p {
+  color: #fff;
+  font-size: 20px;
+  padding: 25px;
+  font-family: 'Kaisei Opti';
+  letter-spacing: 0.07rem;
+  text-align: center;
+  line-height: 35px;
+}
+
+.dec-left { 
+  color: #fff;
+  box-sizing: content-box;
+  height: 400px;
+  width: 48%;
+  background: #f0f8ffd6;
+  border-radius: 100px 0;
+}
+
+.about-desc {
+  display: flex;
+  justify-content: space-between;
+  height: 100%; 
+  padding: 5%;
+}
+
+.about-desc .description {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 0 100px;
+  border-style: dashed;
+  height: 400px;
+  width: 50%;
 }
