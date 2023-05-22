@@ -1,6 +1,9 @@
 import React from 'react'
 import { TopSection } from './component/TopSection'
 import { AboutUs } from './component/AboutUs'
+import { Experiences } from './Experiences'
+import BackgroundAnimation from './component/BackgroundAnimation'
+import { Projects } from './component/Projects'
 
 export const PortHome = () => {
   return (
@@ -22,6 +25,8 @@ export const PortHome = () => {
         </div>
         <TopSection/> 
         <AboutUs/>
+        <Experiences/>
+       <Projects/>
     </div>
     </React.Fragment>
   )

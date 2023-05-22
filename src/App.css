@@ -147,13 +147,13 @@ nav {
 }
 
 
-.About-section {
+.About-section{
   box-sizing: border-box;
   width: 100%;
   padding: 5%;
 }
 
-.About-section .title-about {
+.About-section, .exp-section .title-about {
   color: #fff;
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
@@ -192,4 +192,157 @@ nav {
   border-style: dashed;
   height: 400px;
   width: 50%;
+}
+.details {
+  list-style-type:none;
+  margin: 3%;
+  margin-top: 10%;
+}
+
+.contact-div{
+  text-align: center;
+  color: #112;
+  text-transform:uppercase ;
+}
+
+.svg-container{
+  background-image: linear-gradient(45deg, #0072F5 -20%, #FF4ECD 50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+
+.svg-container svg{
+  vertical-align: -webkit-baseline-middle;
+  margin: 11px;
+}
+
+.details li {
+  display: flex;
+}
+
+.details .detail-child{
+  display: block;
+    color: #333;
+    margin-left: 20px;
+    margin-top: 0;
+    font-size: 20px;
+    font-family: 'Kaisei Opti';
+}
+
+
+.bubble-bg{
+  /* background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 960 540' width='960' height='540' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Cg transform='translate(435.1951801048114 258.0584362620838)'%3E%3Cpath d='M219.6 -153.4C285.4 -92.6 340.1 -1.2 316.3 59.8C292.5 120.9 190.2 151.7 97 193.6C3.8 235.5 -80.3 288.5 -132.5 266.6C-184.7 244.8 -205 148.1 -219.6 57.6C-234.3 -32.9 -243.4 -117.1 -205.9 -171.5C-168.4 -225.9 -84.2 -250.5 -3.6 -247.6C76.9 -244.6 153.8 -214.3 219.6 -153.4' fill='%23ebc4ff'%3E%3C/path%3E%3C/g%3E%3C/svg%3E"); */
+  /* background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 960 540' width='960' height='540' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Cg transform='translate(435.1951801048114 258.0584362620838)'%3E%3Cpath d='M219.6 -153.4C285.4 -92.6 340.1 -1.2 316.3 59.8C292.5 120.9 190.2 151.7 97 193.6C3.8 235.5 -80.3 288.5 -132.5 266.6C-184.7 244.8 -205 148.1 -219.6 57.6C-234.3 -32.9 -243.4 -117.1 -205.9 -171.5C-168.4 -225.9 -84.2 -250.5 -3.6 -247.6C76.9 -244.6 153.8 -214.3 219.6 -153.4' fill='%230072f5b0'%3E%3C/path%3E%3C/g%3E%3C/svg%3E"); */
+  /* background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 960 540' width='960' height='540' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Cg transform='translate(435.1951801048114 258.0584362620838)'%3E%3Cpath d='M219.6 -153.4C285.4 -92.6 340.1 -1.2 316.3 59.8C292.5 120.9 190.2 151.7 97 193.6C3.8 235.5 -80.3 288.5 -132.5 266.6C-184.7 244.8 -205 148.1 -219.6 57.6C-234.3 -32.9 -243.4 -117.1 -205.9 -171.5C-168.4 -225.9 -84.2 -250.5 -3.6 -247.6C76.9 -244.6 153.8 -214.3 219.6 -153.4' fill='%23ebc4ff'%3E%3C/path%3E%3C/g%3E%3C/svg%3E"); */
+  /* background-repeat: no-repeat; 
+  height: 530px;
+  width: 50%;
+  position: relative; */
+}
+.exps{
+  /* position: absolute;
+  top: 10%;
+  left: 35%;
+  right: 0;
+  bottom: 0;
+  width: 0; */ 
+
+  margin-right: 20px;
+}
+
+.exps h1{
+  font-size: 35px;
+    font-family: 'Kaisei Opti';
+    color: #fff;
+    letter-spacing: 0.2rem;
+    line-height: 60px;
+}
+
+.exps q{
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Kaisei Opti';
+}
+
+.exp-section{ 
+ text-align: center; 
+ width: 100%;
+}
+
+.exp-section .ex-1{ 
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 5%;
+  height: 50%;
+}
+
+.company-detail{ 
+  display: block;
+  width: 21%;
+  box-sizing: border-box;
+  border: 1px solid #8b7979;
+  color: #fff;
+  padding: 15px;
+  margin-left: 10px;
+}
+
+.company-detail img{
+  border-radius: 100px;
+}
+
+.company-detail .c-name{
+  font-size: 17px;
+  font-family: 'Kaisei Opti';
+  letter-spacing: 0.05rem;
+}
+
+.company-detail .position{
+  font-family: 'Kaisei Opti';
+}
+
+.ex-1 .desc{ 
+  margin: 3px;
+  font-size: 15px;
+  font-family: 'Kaisei Opti';
+  letter-spacing: 0.05rem;
+  line-height: 30px;
+}
+
+.project-section {
+  color: #fff;
+  display: grid;
+  padding: 0;
+  margin: 0px auto;
+  max-width: 1310px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.project-section h1{
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 72px; 
+  max-width: 100%; 
+  margin-bottom: 16px;
+  color: #fff;
+  padding: 58px 0px 16px; 
+}
+.project-section strong{
+  background-image: linear-gradient(45deg, #0072F5 -20%, #FF4ECD 50%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-section .quote{
+  font-size: 15px;
+  font-family: 'Kaisei Opti';
+  display: block;
+  width: 73%;
+  letter-spacing: 0.07rem;
+  line-height: 25px;
 }
