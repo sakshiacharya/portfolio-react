@@ -147,13 +147,14 @@ nav {
 }
 
 
-.About-section{
+.About-section {
   box-sizing: border-box;
   width: 100%;
   padding: 5%;
 }
 
-.About-section, .exp-section .title-about {
+.About-section,
+.exp-section .title-about {
   color: #fff;
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
@@ -169,7 +170,7 @@ nav {
   line-height: 35px;
 }
 
-.dec-left { 
+.dec-left {
   color: #fff;
   box-sizing: content-box;
   height: 400px;
@@ -181,7 +182,7 @@ nav {
 .about-desc {
   display: flex;
   justify-content: space-between;
-  height: 100%; 
+  height: 100%;
   padding: 5%;
 }
 
@@ -193,26 +194,27 @@ nav {
   height: 400px;
   width: 50%;
 }
+
 .details {
-  list-style-type:none;
+  list-style-type: none;
   margin: 3%;
   margin-top: 10%;
 }
 
-.contact-div{
+.contact-div {
   text-align: center;
   color: #112;
-  text-transform:uppercase ;
+  text-transform: uppercase;
 }
 
-.svg-container{
+.svg-container {
   background-image: linear-gradient(45deg, #0072F5 -20%, #FF4ECD 50%);
   width: 40px;
   height: 40px;
   border-radius: 100px;
 }
 
-.svg-container svg{
+.svg-container svg {
   vertical-align: -webkit-baseline-middle;
   margin: 11px;
 }
@@ -221,17 +223,18 @@ nav {
   display: flex;
 }
 
-.details .detail-child{
+.details .detail-child {
   display: block;
-    color: #333;
-    margin-left: 20px;
-    margin-top: 0;
-    font-size: 20px;
-    font-family: 'Kaisei Opti';
+  color: #333;
+  margin-left: 20px;
+  margin-top: 0;
+  font-size: 20px;
+  font-family: 'Kaisei Opti';
+  text-align: initial;
 }
 
 
-.bubble-bg{
+.bubble-bg {
   /* background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 960 540' width='960' height='540' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Cg transform='translate(435.1951801048114 258.0584362620838)'%3E%3Cpath d='M219.6 -153.4C285.4 -92.6 340.1 -1.2 316.3 59.8C292.5 120.9 190.2 151.7 97 193.6C3.8 235.5 -80.3 288.5 -132.5 266.6C-184.7 244.8 -205 148.1 -219.6 57.6C-234.3 -32.9 -243.4 -117.1 -205.9 -171.5C-168.4 -225.9 -84.2 -250.5 -3.6 -247.6C76.9 -244.6 153.8 -214.3 219.6 -153.4' fill='%23ebc4ff'%3E%3C/path%3E%3C/g%3E%3C/svg%3E"); */
   /* background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 960 540' width='960' height='540' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Cg transform='translate(435.1951801048114 258.0584362620838)'%3E%3Cpath d='M219.6 -153.4C285.4 -92.6 340.1 -1.2 316.3 59.8C292.5 120.9 190.2 151.7 97 193.6C3.8 235.5 -80.3 288.5 -132.5 266.6C-184.7 244.8 -205 148.1 -219.6 57.6C-234.3 -32.9 -243.4 -117.1 -205.9 -171.5C-168.4 -225.9 -84.2 -250.5 -3.6 -247.6C76.9 -244.6 153.8 -214.3 219.6 -153.4' fill='%230072f5b0'%3E%3C/path%3E%3C/g%3E%3C/svg%3E"); */
   /* background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 960 540' width='960' height='540' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Cg transform='translate(435.1951801048114 258.0584362620838)'%3E%3Cpath d='M219.6 -153.4C285.4 -92.6 340.1 -1.2 316.3 59.8C292.5 120.9 190.2 151.7 97 193.6C3.8 235.5 -80.3 288.5 -132.5 266.6C-184.7 244.8 -205 148.1 -219.6 57.6C-234.3 -32.9 -243.4 -117.1 -205.9 -171.5C-168.4 -225.9 -84.2 -250.5 -3.6 -247.6C76.9 -244.6 153.8 -214.3 219.6 -153.4' fill='%23ebc4ff'%3E%3C/path%3E%3C/g%3E%3C/svg%3E"); */
@@ -240,37 +243,38 @@ nav {
   width: 50%;
   position: relative; */
 }
-.exps{
+
+.exps {
   /* position: absolute;
   top: 10%;
   left: 35%;
   right: 0;
   bottom: 0;
-  width: 0; */ 
+  width: 0; */
 
   margin-right: 20px;
 }
 
-.exps h1{
+.exps h1 {
   font-size: 35px;
-    font-family: 'Kaisei Opti';
-    color: #fff;
-    letter-spacing: 0.2rem;
-    line-height: 60px;
+  font-family: 'Kaisei Opti';
+  color: #fff;
+  letter-spacing: 0.2rem;
+  line-height: 60px;
 }
 
-.exps q{
+.exps q {
   color: #fff;
   font-size: 18px;
   font-family: 'Kaisei Opti';
 }
 
-.exp-section{ 
- text-align: center; 
- width: 100%;
+.exp-section {
+  text-align: center;
+  width: 100%;
 }
 
-.exp-section .ex-1{ 
+.exp-section .ex-1 {
   display: flex;
   justify-content: space-between;
   border-radius: 20px;
@@ -278,31 +282,31 @@ nav {
   height: 50%;
 }
 
-.company-detail{ 
-  display: block;
-  width: 21%;
+.company-detail {
+  display: block; 
   box-sizing: border-box;
   border: 1px solid #8b7979;
   color: #fff;
   padding: 15px;
   margin-left: 10px;
+  border-radius: 16px;
 }
 
-.company-detail img{
+.company-detail img {
   border-radius: 100px;
 }
 
-.company-detail .c-name{
+.company-detail .c-name {
   font-size: 17px;
   font-family: 'Kaisei Opti';
   letter-spacing: 0.05rem;
 }
 
-.company-detail .position{
+.company-detail .position {
   font-family: 'Kaisei Opti';
 }
 
-.ex-1 .desc{ 
+.ex-1 .desc {
   margin: 3px;
   font-size: 15px;
   font-family: 'Kaisei Opti';
@@ -323,26 +327,111 @@ nav {
   width: 100%;
 }
 
-.project-section h1{
+.project-section h1 {
   font-weight: 800;
   font-size: 65px;
-  line-height: 72px; 
-  max-width: 100%; 
+  line-height: 72px;
+  max-width: 100%;
   margin-bottom: 16px;
   color: #fff;
-  padding: 58px 0px 16px; 
+  padding: 58px 0px 16px;
 }
-.project-section strong{
+
+.project-section strong {
   background-image: linear-gradient(45deg, #0072F5 -20%, #FF4ECD 50%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.project-section .quote{
+.project-section .quote {
   font-size: 15px;
   font-family: 'Kaisei Opti';
   display: block;
   width: 73%;
   letter-spacing: 0.07rem;
   line-height: 25px;
+
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  padding: 10%;
+  padding-top: 0;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+.projects .p-list {
+  color: #fff;
+  background: rgb(33, 45, 69);
+  display: block;
+  border-radius: 12px;
+  height: 100%;
+  padding: 24px;
+  width: 83%;
+}
+
+.projects .p-list h3 {
+  font-size: 24px;
+  font-family: 'Kaisei Opti';
+  /* background-image: linear-gradient(45deg, #0072F5 -20%, #FF4ECD 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.projects .p-list p {
+  font-size: 16px;
+  font-family: 'Kaisei Opti';
+  letter-spacing: 0.05rem;
+}
+
+.projects .p-list a {
+  font-size: 16px;
+  font-family: 'Kaisei Opti';
+  color: #fff;
+}
+
+.skill-section .wave-bg {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23e7008a' fill-opacity='1' d='M0,224L48,234.7C96,245,192,267,288,245.3C384,224,480,160,576,122.7C672,85,768,75,864,74.7C960,75,1056,85,1152,80C1248,75,1344,53,1392,42.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.image{
+  position: absolute;
+  right: -35%;
+  top: 17%;
+}
+
+.image img {
+  width: 45%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+@media screen and (min-width: 1500px) {
+  .container{
+    max-width: 1300px;
+  }
+  .description p{
+    font-size: 16px;
+  }
+  .details .detail-child{
+    font-size: 18px;
+  }
+  .projects .p-list{
+    width: 80%;
+  }
+  .top-text{
+    margin-right: 10px;
+  }
 }

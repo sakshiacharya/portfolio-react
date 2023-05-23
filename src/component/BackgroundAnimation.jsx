@@ -1,7 +1,8 @@
 import React from 'react';
 
 const BackgroundAnimation = () => (
-  <div> 
+  <>
+  <div style={{position : 'relative'}}> 
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
@@ -359,7 +360,11 @@ const BackgroundAnimation = () => (
         </linearGradient>
       </defs>
     </svg>
-  </div>
+  </div>  
+<div className='image' >
+<img src='https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80' alt='laptopimage' ></img>
+</div>
+</>
 );
 
 export default BackgroundAnimation;

@@ -4,6 +4,7 @@ import { AboutUs } from './component/AboutUs'
 import { Experiences } from './Experiences'
 import BackgroundAnimation from './component/BackgroundAnimation'
 import { Projects } from './component/Projects'
+import { Skills } from './component/Skills'
 
 export const PortHome = () => {
   return (
@@ -27,6 +28,7 @@ export const PortHome = () => {
         <AboutUs/>
         <Experiences/>
        <Projects/>
+       <Skills/>
     </div>
     </React.Fragment>
   )
